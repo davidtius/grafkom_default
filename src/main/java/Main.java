@@ -35,9 +35,9 @@ object2DS.add(new Object_2D(
                 new ShaderProgram.ShaderModuleData("resources/shaders/scene.frag", GL_FRAGMENT_SHADER)
         ), new ArrayList<>(
                 List.of(
-                        new Vector3f(0.0f, 0.5f, 0.0f),
-                        new Vector3f(-0.5f, -0.5f, 0.0f),
-                        new Vector3f(0.5f, -0.5f, 0.0f)
+                        new Vector3f(0.0f, -0.5f, 0.0f),
+                        new Vector3f(0.5f, 0.5f, 0.0f),
+                        new Vector3f(-0.5f, 0.5f, 0.0f)
                 )
 )
 ));
